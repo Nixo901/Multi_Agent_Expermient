@@ -61,6 +61,40 @@ This project implements core Agentic AI concepts:
         ```bash
         export OPENROUTER_API_KEY="sk-or-..."
         ```
+4. **📝 Example Execution Log**
+  * Here is a log from a successful run on the topic **"What is MLOps?"**:
+---
+🚀 Starting System with Topic: What is mlops
+
+- MANAGER EVALUATING (Iteration 1) ---
+   [Analyst] Processing step 1...
+   
+- MANAGER EVALUATING (Iteration 2) ---
+   [Author] Drafting content...
+   
+- MANAGER EVALUATING (Iteration 3) ---
+   [Manager] Task Complete.
+
+
+**FINAL OUTPUT**
+
+FINAL_DRAFT: Here are three key facts about **MLOps** (Machine Learning Operations):
+
+1. **Definition and Purpose**:
+   MLOps is a set of practices that combines **Machine Learning (ML)**, **DevOps**, and **Data Engineering** to streamline the deployment, monitoring, and maintenance of ML models in production. Its goal is to improve collaboration between data scientists, engineers, and operations teams while ensuring reliability, scalability, and efficiency in ML workflows.
+
+2. **Core Components**:
+   MLOps encompasses several key components, including:
+   - **Version Control** (for code, data, and models),
+   - **Automated Pipelines** (CI/CD for ML),
+   - **Model Monitoring & Retraining** (to handle drift and performance degradation),
+   - **Infrastructure as Code (IaC)** (for scalable deployments),
+   - **Governance & Compliance** (for ethical and regulatory adherence).
+
+3. **Business Impact**:
+   MLOps helps organizations **reduce time-to-market** for ML models, **minimize failures** in production, and **optimize resource usage**. Companies like Google, Uber, and Netflix use MLOps to deploy and manage ML models at scale, improving everything from recommendation systems to fraud detection.
+
+Would you like a deeper dive into any specific aspect of MLOps?
 
 ---
 
@@ -69,4 +103,4 @@ This project implements core Agentic AI concepts:
 Run the main script to start the agent team:
 
 ```bash
-python agent_team..ipynb
+python agent_team.ipynb
