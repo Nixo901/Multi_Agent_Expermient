@@ -14,7 +14,6 @@ A sophisticated multi-agent system built with **LangGraph** that orchestrates a 
 This system utilizes a **Hub-and-Spoke** architecture where a Supervisor node directs the flow of execution based on the conversation state.
 
 ![System Architecture](architecture_diagram.png)
-*(Note: Ensure you upload your generated Graphviz image to your repo and name it `architecture_diagram.png` for it to appear here)*
 
 ---
 
